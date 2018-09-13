@@ -102,12 +102,17 @@ def changing_alan
         }
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
+<<<<<<< HEAD
      
     alans_new_info = "GUI"
     # programmer_hash[:alan_kay]={:known_for => "GUI"}
     programmer_hash[:alan_kay]={:known_for => alans_new_info} 
     #above works or re-assigning "gui to new_info & passing as well"
      programmer_hash
+=======
+    # alans_new_info = "GUI"
+     programmer_hash[:alan_kay][:known_for] = {alans_new_info = "GUI"}
+>>>>>>> d3f79f4c821425c34e2a60e1ec70af8402e3c1ab
      
 end
 
